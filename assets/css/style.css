@@ -1,3 +1,5 @@
+
+/*definition of the variables*/
 :root{
     --background-color: #F6F8F9;
     --var-blue: #47ADF1;
@@ -17,6 +19,8 @@
     
     
 }
+
+/*header*/
 header .title {
     display: inline-block;
     font-weight: 700;
@@ -30,7 +34,7 @@ header {
 }
 
 
-
+/*main*/
 main {
     height: 100vh;
     background-color: var(--background-color);
@@ -58,13 +62,17 @@ main {
     
     
 }
-
+/*top section of main*/
 .box-header {
     padding: 0.3rem 0.7rem 0.3rem 0.7rem;
     border-radius: 5px;
     color: white;
 }
-
+.box-header.white {
+    color: var(--var-grey);
+    border: 1px solid var(--var-grey)
+}
+/*rules for the the differens colors of the buttons*/
 .blue {
     background-color: var(--var-blue);
 }
@@ -89,12 +97,9 @@ main {
     background-color: var(--var-yellow);
 }
 
-.box-header.white {
-    color: var(--var-grey);
-    border: 1px solid var(--var-grey)
-}
 
 
+/*rules for the boxes*/
 .box {
     font-size: 10px;
     color: white;
@@ -127,6 +132,8 @@ main {
     
 }
 
+
+/*rules for the arrow symbol next to the title*/
 .subtitle::before {
     content: "\25BE";
     font-size: 20px;
@@ -140,7 +147,7 @@ main {
 .subtitle {
     font-weight: 800;
 }
-
+/*rules for the blocks*/
 .block p {
     margin-top: 1rem;
     margin-bottom: 1rem;
