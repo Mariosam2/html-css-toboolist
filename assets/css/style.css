@@ -13,10 +13,11 @@
     
 }
 
+
 :root{
     --background-color: #F6F8F9;
     --var-blue: #47ADF1;
-    --var-purple: #9C72E4;
+    --var-pur: #9C72E4;
     --var-green-: #64C0A9;
     --var-orange: #F29E33;
     --var-pink: #D863A1;
@@ -37,28 +38,37 @@ header {
     position: relative;
 }
 
+
+
 main {
+    height: 100vh;
     background-color: var(--background-color);
     padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    color: var(--text-color);
+    font-weight: bold;
 }
 
-.content {
+.container {
     background-color: white;
-    width: 60%;
+    width: 80%;
     margin:auto;
     border-radius: 5px;
 }
 
+.content {
+    padding: 2rem;
+}
+
 .header {
-    padding: 0.75rem;
-    padding-left: 2rem;
+    padding: 1rem 0.75rem 0.75rem 3rem;
     border-bottom: 2px solid var(--background-color);
     font-size: 12px;
     
     
 }
 
-.box {
+.box-header {
     padding: 0.3rem 0.7rem 0.3rem 0.7rem;
     border-radius: 5px;
     color: white;
@@ -68,7 +78,78 @@ main {
     background-color: var(--var-blue);
 }
 
-.box.white {
+.pur {
+    background-color: var(--var-pur);
+}
+
+.green {
+    background-color: var(--var-green-);
+}
+
+.orange {
+    background-color: var(--var-orange);
+}
+
+.pink {
+    background-color: var(--var-pink);
+}
+
+.yellow {
+    background-color: var(--var-yellow);
+}
+
+.box-header.white {
     color: var(--var-grey);
     border: 1px solid var(--var-grey)
+}
+
+
+.box {
+    font-size: 10px;
+    color: white;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 18px;
+    transform: translateY(-50%);
+}
+
+.checkmark {
+    
+    font-size: 8px;
+    color: var(--var-green-);
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+    margin-right: 0.75rem;
+    border: 1px solid var(--var-green-);
+    border-radius: 50%;  
+    
+    
+    
+}
+
+
+.cross {
+    font-size: 8px;
+    color: red;
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+    margin-right: 0.75rem;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+}
+
+/*.subtitle::before {
+    content: "f0d7";
+    font-size: 12px;
+    
+    
+
+}*/
+
+.block p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.block {
+    margin-bottom: 2rem;
 }
