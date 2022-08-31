@@ -74,7 +74,7 @@ main {
     color: var(--var-grey);
     border: 1px solid var(--var-grey)
 }
-/*rules for the the differens colors of the buttons*/
+/*rules for the the differents colors of the buttons*/
 .blue {
     background-color: var(--var-blue);
 }
