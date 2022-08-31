@@ -26,6 +26,8 @@ header .title {
     font-weight: 700;
     font-size: 2.5rem;
     position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
 }
 
 header {
@@ -105,7 +107,11 @@ main {
     color: white;
     padding: 0.3rem 0.5rem 0.3rem 0.5rem;
     border-radius: 18px;
-    transform: translateY(-50%);
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    margin-left: 0.5rem;
+    
 }
 
 .checkmark {
@@ -115,7 +121,13 @@ main {
     padding: 0.1rem 0.2rem 0.1rem 0.2rem;
     margin-right: 0.75rem;
     border: 1px solid var(--var-green-);
-    border-radius: 50%;  
+    border-radius: 50%;
+    vertical-align: middle;
+    
+    
+   
+    
+
     
     
     
@@ -135,7 +147,7 @@ main {
 
 /*rules for the arrow symbol next to the title*/
 .subtitle::before {
-    content: "\25BE";
+    content: "\23F7";
     font-size: 20px;
     
     
@@ -151,6 +163,7 @@ main {
 .block p {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    position: relative;
     
 }
 
